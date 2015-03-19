@@ -7,6 +7,12 @@ body {
     padding-left: 490px;
 }
 
+div{
+	display: inline-block;
+}
+
+}
+
 h1{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #ffffff;
