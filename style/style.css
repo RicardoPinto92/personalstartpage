@@ -13,7 +13,18 @@ body {
 	left: 100px;
 }
 
+#q {
+    width: 500px;
+    background: #27282B; color: #cecfd1;
+    border: 0px solid #27282B; border-radius: 0px;
+    padding: 8px 8px; font-size: 12pt;
+}
+    #q:focus { border-color: #66686A !important; }
+    #q:hover { border-color: #393A3D; }
+
 img {
+	max-width: 216px;
+	max-height: 216px;
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
