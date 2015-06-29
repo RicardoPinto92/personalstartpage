@@ -7,14 +7,18 @@ body {
     padding-left: 490px;
 }
 
-.top-menu{
-
+#search-engine{
+	margin: 10px;
+	width: 500px;
+	background: #27282B; color: #cecfd1;
+	border: 0px;
 }
 
 #social_icons{
 	position: absolute;
 	top: 200px;
 	left: 100px;
+	background:
 }
 
 #search {
