@@ -7,32 +7,38 @@ body {
     padding-left: 490px;
 }
 
-.social_icons{
+.top-menu{
+
+}
+
+#social_icons{
 	position: absolute;
 	top: 200px;
 	left: 100px;
 }
 
-#q {
+#search {
+		margin: 10px;
     width: 500px;
     background: #27282B; color: #cecfd1;
     border: 0px solid #27282B; border-radius: 0px;
-    padding: 8px 8px; font-size: 12pt;
+    padding: 8px 8px;
+		font-size: 12pt;
 }
     #q:focus { border-color: #66686A !important; }
     #q:hover { border-color: #393A3D; }
 
-img {
+.img_main {
 	max-width: 216px;
 	max-height: 216px;
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
-img:hover {
+.img_main:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
-} 
+}
 
 h1{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

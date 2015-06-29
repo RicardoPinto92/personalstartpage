@@ -2,21 +2,29 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style/style.css" >
-	<script type="text/javascript" src="jquery/jquery.js"></script>
+	<script type="text/javascript" src="javascript/jquery.js"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Home Page</title>
 </head>
 
 <body>
-	<input type="text" id="q" value="" placeholder="Search..."/>
-	<div class="social_icons">
-		<a href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook"></a>
-		<a href="https://twitter.com/"><img src="img/twitter.png" alt="Twitter"></a>
-		<a href="https://www.youtube.com"><img src="img/youtube.png" alt="Youtube"></a>
-		<a href="https://www.linkedin.com"><img src="img/linkedin.png" alt="LinkedIn"></a>
-		<a href="https://pinterest.com"><img src="img/pinterest.png" alt="Pinterest"></a>
-		<a href="https://www.4chan.org/"><img src="img/4chan.png" alt="4chan"></a>
+<select class="top-menu">
+	<option value="Google">Google</option>
+	<option value="DuckDuckGo">DuckDuckGo</option>
+	<option value="Youtube">Youtube</option>
+</select>
+	<input type="text" id="search" value="" placeholder="Search..."/>
+	<div class="searchresults">
+
+	</div>
+	<div id="social_icons">
+		<a class="img_main" href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook"></a>
+		<a class="img_main" href="https://twitter.com/"><img src="img/twitter.png" alt="Twitter"></a>
+		<a class="img_main" href="https://www.youtube.com"><img src="img/youtube.png" alt="Youtube"></a>
+		<a class="img_main" href="https://www.linkedin.com"><img src="img/linkedin.png" alt="LinkedIn"></a>
+		<a class="img_main" href="https://pinterest.com"><img src="img/pinterest.png" alt="Pinterest"></a>
+		<a class="img_main" href="https://www.4chan.org/"><img src="img/4chan.png" alt="4chan"></a>
 	</div>
 </body>
 
-</html> 
+</html>
