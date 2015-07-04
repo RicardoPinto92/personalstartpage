@@ -8,13 +8,14 @@
 </head>
 
 <body>
-<select id="search-engine">
+<select id="search-engine" name="Search Engine" onchange="populate">
 	<option value="Google">Google</option>
 	<option value="DuckDuckGo">DuckDuckGo</option>
 	<option value="Youtube">Youtube</option>
 </select>
-	<input type="text" id="search" value="" placeholder="Search..."/>
-	<div class="searchresults">
+<form method="get" action="http://www.google.com/search">
+<!--<form method="get" action="http://www.google.com/search">
+<input autocomplete="off" id="search-box" type="text" name="q" placeholder=" Google search..."/> -->
 
 	</div>
 	<div id="social_icons">
